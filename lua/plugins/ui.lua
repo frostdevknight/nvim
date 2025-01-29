@@ -20,13 +20,12 @@ return {
 
       -- Gradient colors (Modify these to change the effect)
       local colors = {
-        "#86d3f8", -- Ice Blue
-        "#4ea8ff", -- Frost Blue
-        "#3a74c5", -- Deep Azure
-        "#725acc", -- Arctic Purple
-        "#8a5fd9", -- Frozen Violet
-        "#6b3fa0", -- Mystic Indigo
-        "#1f3b5f", -- Shadow Blue
+        "#2f7ac8", -- **Ancient Ice** (Darker frost magic, sits at the top)
+        "#4b9ade", -- **Frozen Depths** (Deep but balanced icy tone)
+        "#3cb8f2", -- **Glacial Spirit** (Bright, magical ice)
+        "#47d7ff", -- **Pure Frost Magic** (Luminous cold magic)
+        "#6be4ff", -- **Runic Chill** (Soft cyan glow)
+        "#8fd9ff", -- **Frozen Whisper** (Brightest icy highlight, now at the bottom)
       }
 
       -- Autocommand to apply gradient after dashboard is fully loaded
