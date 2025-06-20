@@ -1,4 +1,5 @@
 return {
+  { "folke/snacks.nvim", opts = { dashboard = { enabled = false } } },
   -- logo
   {
     "nvimdev/dashboard-nvim",
