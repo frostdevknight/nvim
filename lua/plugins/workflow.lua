@@ -16,41 +16,41 @@ return {
   --     },
   --   },
   -- },
-  {
-    "yaegassy/coc-volar",
-  },
+  -- {
+  --   "yaegassy/coc-volar",
+  -- },
   -- {
   --   "github/copilot.vim",
   -- },
   -- Configure Flash to use <leader>s instead of s
-  {
-    "folke/flash.nvim",
-    event = "VeryLazy",
-    opts = {
-      -- other Flash options can go here
-      -- default options are defined in the Flash plugin
-    },
-    keys = {
-      {
-        "ś",
-        mode = { "n", "x", "o" },
-        function()
-          require("flash").jump()
-        end,
-        desc = "Flash",
-      },
-      {
-        "Ś",
-        mode = { "n", "o", "x" },
-        function()
-          require("flash").treesitter()
-        end,
-        desc = "Flash Treesitter",
-      },
-      { "s", mode = { "n", "x", "o" }, false },
-      { "S", mode = { "n", "o", "x" }, false },
-    },
-  },
+  -- {
+  --   "folke/flash.nvim",
+  --   event = "VeryLazy",
+  --   opts = {
+  --     -- other Flash options can go here
+  --     -- default options are defined in the Flash plugin
+  --   },
+  --   keys = {
+  --     {
+  --       "ś",
+  --       mode = { "n", "x", "o" },
+  --       function()
+  --         require("flash").jump()
+  --       end,
+  --       desc = "Flash",
+  --     },
+  --     {
+  --       "Ś",
+  --       mode = { "n", "o", "x" },
+  --       function()
+  --         require("flash").treesitter()
+  --       end,
+  --       desc = "Flash Treesitter",
+  --     },
+  --     { "s", mode = { "n", "x", "o" }, false },
+  --     { "S", mode = { "n", "o", "x" }, false },
+  --   },
+  -- },
   {
     "williamboman/mason.nvim",
     opts = {
